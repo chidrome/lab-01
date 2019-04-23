@@ -1,0 +1,21 @@
+@media only screen and (max-width: 480px) {
+  div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  background-color: lightgray;
+  }
+}
+
+@media only screen and (min-width: 481px){
+  div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    background-color: lightgray;
+  }
+}

@@ -1,0 +1,52 @@
+@media only screen and (max-width: 480px) {
+  .a {
+    height: 75px;
+  }
+  .b {
+    height: 150px;
+  }
+  .c, .d {
+    height: 125px;
+  }
+  .i {
+    height: 80px;
+  }
+  .wrapper section {
+    display: flex;
+  }
+  .wrapper section div {
+    width: 240px;
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 481px){
+  .a {
+  height: 100px
+  }
+  .b {
+    float: left;
+    width: 200px;
+    height: 600px
+  }
+  .c, .d {
+    width: 380px;
+    height: 200px;
+  }
+  .wrapper {
+    display: flex;
+  }
+  .wrapper section {
+    display: flex;
+  }
+  .e-h {
+    width: 188px;
+    height: 250px;
+  }
+  .i {
+    height: 146px;
+  }
+}
+
+
+
