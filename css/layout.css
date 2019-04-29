@@ -1,5 +1,5 @@
 @media only screen and (max-width: 480px) {
-  div {
+  div, header, aside, footer {
   height: 100%;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@
 }
 
 @media only screen and (min-width: 481px){
-  div {
+  div, header, aside, footer {
     height: 100%;
     display: flex;
     align-items: center;
