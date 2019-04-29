@@ -1,17 +1,23 @@
 @media only screen and (max-width: 480px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .a {
     height: 75px;
   }
   .b {
     height: 150px;
   }
+  .cd-container {
+    display: block;
+  }
   .c, .d {
     height: 125px;
   }
   .e, .f, .g, .h {
-    margin: 0 auto;
-    float: left;
-    width: 238px;
+    margin: 0;
+    width: 234px;
     height: 250px;
   }
   .i {
@@ -47,24 +53,28 @@
 }
 
 @media only screen and (min-width: 481px){
+  main, #ipad-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 26%;
+  }
   .a {
   height: 100px;
   width: 964px;
   }
   footer {
     width: 762px;
+    position: absolute;
+    top: 49.7%;
+    left: 26.3%;
   }
   .b {
-    float: left;
+    position: absolute;
+    left: 0;
+    margin: 0;
     width: 200px;
     height: 600px
-  }
-  .c {
-    float: left;
-    margin: 0 auto;
-  }
-  .d {
-    float:left;
   }
   .c, .d {
     width: 380px;
@@ -72,12 +82,72 @@
   }
   .e, .f, .g, .h {
     margin: 0 auto;
-    float: left;
-    width: 189px;
+    width: 188px;
     height: 250px;
   }
   .i {
     height: 146px;
+  }
+  .a {
+    background-color: red;
+  }
+  .b {
+    background-color: cadetblue;
+  }
+  .c {
+    background-color: cornflowerblue;
+  }
+  .d {
+    background-color: chocolate;
+  }
+  .e {
+    background-color: chartreuse
+  }
+  .f {
+    background-color: cyan
+  }
+  .g {
+    background-color: orange;
+  }
+  .h {
+    background-color: orchid
+  }
+  .i {
+    background-color: palegreen;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  main, #ipad-container{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 26%;
+  }
+  .a {
+    height: 100px;
+    width: 964px;
+  }
+  footer {
+    width: 763px;
+    position: absolute;
+    top: 50.2%;
+    left: 26.2%;
+  }
+  .i {
+    height: 141px;
+  }
+  .b {
+    width: 200px;
+    height: 600px
+  }
+  .c, .d {
+    width: 380px;
+    height: 200px;
+  }
+  .e, .f, .g, .h {
+    width: 188px;
+    height: 250px;
   }
   .a {
     background-color: bisque;
