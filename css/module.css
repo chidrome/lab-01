@@ -8,43 +8,103 @@
   .c, .d {
     height: 125px;
   }
+  .e, .f, .g, .h {
+    margin: 0 auto;
+    float: left;
+    width: 238px;
+    height: 250px;
+  }
   .i {
     height: 80px;
   }
-  .wrapper section {
-    display: flex;
+  .a {
+    background-color: aqua;
   }
-  .wrapper section div {
-    width: 240px;
-    height: 250px;
+  .b {
+    background-color: red;
+  }
+  .c {
+    background-color: purple;
+  }
+  .d {
+    background-color: blue;
+  }
+  .e {
+    background-color: paleturquoise;
+  }
+  .f {
+    background-color: palegoldenrod;
+  }
+  .g {
+    background-color: palevioletred;
+  }
+  .h {
+    background-color: peachpuff;
+  }
+  .i {
+    background-color: rosybrown;
   }
 }
 
 @media only screen and (min-width: 481px){
   .a {
-  height: 100px
+  height: 100px;
+  width: 964px;
+  }
+  footer {
+    width: 762px;
   }
   .b {
     float: left;
     width: 200px;
     height: 600px
   }
+  .c {
+    float: left;
+    margin: 0 auto;
+  }
+  .d {
+    float:left;
+  }
   .c, .d {
     width: 380px;
     height: 200px;
   }
-  .wrapper {
-    display: flex;
-  }
-  .wrapper section {
-    display: flex;
-  }
-  .e-h {
-    width: 188px;
+  .e, .f, .g, .h {
+    margin: 0 auto;
+    float: left;
+    width: 189px;
     height: 250px;
   }
   .i {
     height: 146px;
+  }
+  .a {
+    background-color: bisque;
+  }
+  .b {
+    background-color: blueviolet;
+  }
+  .c {
+    background-color: olive;
+  }
+  .d {
+    background-color: olivedrab;
+  }
+  .e {
+    background-color: orangered
+  }
+  .f {
+    background-color: indianred
+  }
+  .g {
+    background-color: aquamarine;
+  }
+  .h {
+    background-color: cornflowerblue
+  }
+  .i {
+    background-color: cadetblue;
   }
 }
 
